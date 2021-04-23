@@ -38,7 +38,7 @@ function addGa(html) {
     }
     return html;
 }
-
+ 
 function googleAnalyticsMiddleware(data) {
     if (data.contentType == 'text/html') {
 
@@ -54,7 +54,7 @@ function googleAnalyticsMiddleware(data) {
 }
 
 var unblockerConfig = {
-    prefix: '/proxy/',
+    prefix: '/emergencyalert/',
     requestMiddleware: [
         youtube.processRequest
     ],
